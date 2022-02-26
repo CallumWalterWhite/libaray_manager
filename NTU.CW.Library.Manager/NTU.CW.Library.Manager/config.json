@@ -1,0 +1,72 @@
+{
+  "DataStorageLocation": [
+    {
+      "key": "SecurityUsers",
+      "value": "C:/Users/Callum White/Documents/NTU/Soft Module Assigment/Project/Data/Security/security_users.csv",
+      "type": "csv"
+    },
+    {
+      "key": "StockJSON",
+      "value": "C:/Users/Callum White/Documents/NTU/Soft Module Assigment/Project/Data/JSON/stockJSON.json",
+      "type": "json"
+    },
+    {
+      "key": "Audit",
+      "value": "C:/Users/Callum White/Documents/NTU/Soft Module Assigment/Project/Data/Exception/Audit.json",
+      "type": "location"
+    },
+    {
+      "key": "RequestJSON",
+      "value": "C:/Users/Callum White/Documents/NTU/Soft Module Assigment/Project/Data/JSON/requestJSON.json",
+      "type": "json"
+    },
+    {
+      "key": "LoanJSON",
+      "value": "C:/Users/Callum White/Documents/NTU/Soft Module Assigment/Project/Data/JSON/loanJSON.json",
+      "type": "json"
+    },
+    {
+      "key": "HistoryJSON",
+      "value": "C:/Users/Callum White/Documents/NTU/Soft Module Assigment/Project/Data/JSON/historyJSON.json",
+      "type": "json"
+    }
+  ],
+  "UnitTestDataStorageLocation": [
+    {
+      "key": "SecurityUsers",
+      "value": "C:/Users/Callum White/Documents/NTU/Soft Module Assigment/Project/Data/Security/security_users.csv",
+      "type": "csv"
+    },
+    {
+      "key": "StockJSON",
+      "value": "C:/Users/Callum White/Documents/NTU/Soft Module Assigment/Project/UnitTestData/JSON/stockJSON.json",
+      "type": "json"
+    },
+    {
+      "key": "Audit",
+      "value": "C:/Users/Callum White/Documents/NTU/Soft Module Assigment/Project/Data/Exception/Audit.json",
+      "type": "location"
+    },
+    {
+      "key": "RequestJSON",
+      "value": "C:/Users/Callum White/Documents/NTU/Soft Module Assigment/Project/UnitTestData/JSON/requestJSON.json",
+      "type": "json"
+    },
+    {
+      "key": "LoanJSON",
+      "value": "C:/Users/Callum White/Documents/NTU/Soft Module Assigment/Project/UnitTestData/JSON/loanJSON.json",
+      "type": "json"
+    },
+    {
+      "key": "HistoryJSON",
+      "value": "C:/Users/Callum White/Documents/NTU/Soft Module Assigment/Project/UnitTestData/JSON/historyJSON.json",
+      "type": "json"
+    }
+  ],
+  "AppSettings": [
+    {
+      "key": "ReportDownload",
+      "value": "C:/Users/Callum White/Documents/NTU/Soft Module Assigment/Project/Data/Reports"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>dc5a50a7-45aa-4d79-8af5-1c5acc3e84f0</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>StartUp.py</StartupFile>
+    <SearchPath>Modules\Exception;Models;Models\Route;Packages;GUIInterface;JSON;Models\Security;Modules\Security</SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>NTU.CW.Library.Manager</Name>
+    <RootNamespace>PythonApplication1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Classes\CatalogueProvider.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\ExtensionMethods.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\RouteConfig.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\AdminController.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\HomeController.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\SecurityController.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUIInterface\AdminGUI.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUIInterface\CatalogueGUI.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUIInterface\HomeGUI.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUIInterface\SecurityGUI.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Catalogue.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\ItemRequest.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Item\Book.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Item\CD.py" />
+    <Compile Include="Models\Item\Journal.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Loan.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Product.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Route\RouteControl.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\CatalogueController.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Security\SecurityType.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Security\User.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Exception\ExceptionManager.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Exception\ExceptionPolicy.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Security\AuthorizationManager.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Packages\tkinter.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StartUp.py" />
+    <Compile Include="UnitTestStartUp.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Classes\" />
+    <Folder Include="Models\Item\" />
+    <Folder Include="Models\" />
+    <Folder Include="Models\Security\" />
+    <Folder Include="Models\Route\" />
+    <Folder Include="Modules\" />
+    <Folder Include="Modules\Exception\" />
+    <Folder Include="GUIInterface\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="Modules\Security\" />
+    <Folder Include="Packages\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config.json" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

@@ -1,0 +1,4 @@
+_Id,Type,Title,SKU,Author,Stock,AvaibleStock
+1,book,Python Book,BK-PY-01,Callum White,4,3
+2,book,Python Book 2,BK-PY-02,Callum White,1,1
+3,book,Python Book 3,BK-PY-02,Callum White,2,2
